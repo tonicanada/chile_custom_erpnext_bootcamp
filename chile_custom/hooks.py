@@ -145,6 +145,19 @@ app_license = "mit"
 # 	}
 # }
 
+
+doc_events = {
+    "Supplier": {
+        "validate": "chile_custom.validations.tax_id.validate_tax_id"
+    },
+    "Customer": {
+        "validate": "chile_custom.validations.tax_id.validate_tax_id"
+    },
+    "Employee": {
+        "validate": "chile_custom.validations.tax_id.validate_tax_id"
+    }
+}
+
 # Scheduled Tasks
 # ---------------
 
