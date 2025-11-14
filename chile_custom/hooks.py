@@ -48,6 +48,11 @@ app_license = "mit"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+doctype_js = {
+    "Address": "public/js/address_region.js"
+}
+
+
 # Svg Icons
 # ------------------
 # include app icons in desk
@@ -157,6 +162,11 @@ doc_events = {
         "validate": "chile_custom.validations.tax_id.validate_tax_id"
     }
 }
+
+
+after_migrate = [
+    "chile_custom.custom.address_custom_fields.create_address_custom_fields"
+]
 
 # Scheduled Tasks
 # ---------------
