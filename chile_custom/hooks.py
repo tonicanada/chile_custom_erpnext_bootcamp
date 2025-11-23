@@ -49,7 +49,8 @@ app_license = "mit"
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
 doctype_js = {
-    "Address": "public/js/address_region.js"
+    "Address": "public/js/address_region.js",
+     "Project": "public/js/project_region.js"
 }
 
 
@@ -159,13 +160,15 @@ doc_events = {
         "validate": "chile_custom.validations.tax_id.validate_tax_id"
     },
     "Employee": {
-        "validate": "chile_custom.validations.tax_id.validate_tax_id"
+        "validate": "chile_custom.validations.employee_rut.validate_employee_rut",
     }
 }
 
 
 after_migrate = [
-    "chile_custom.custom.address_custom_fields.create_address_custom_fields"
+    "chile_custom.custom.address_custom_fields.create_address_custom_fields",
+    "chile_custom.custom.project_custom_fields.create_project_custom_fields",
+    "chile_custom.custom.employee_custom_fields.create_employee_rut_field"
 ]
 
 # Scheduled Tasks
