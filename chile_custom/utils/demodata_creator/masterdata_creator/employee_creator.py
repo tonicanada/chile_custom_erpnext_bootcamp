@@ -750,7 +750,6 @@ def create_address_for_employee(employee, city: str, region: str):
     # )
     # address_doc.insert(ignore_permissions=True)
     # employee.current_address = address_doc.name
-    
     # Por ahora no creamos direcciones
     pass
 

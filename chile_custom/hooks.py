@@ -161,6 +161,9 @@ doc_events = {
     },
     "Employee": {
         "validate": "chile_custom.validations.employee_rut.validate_employee_rut",
+    },
+    "Shareholder": {
+        "validate": "chile_custom.validations.shareholder_rut.validate_shareholder_rut",
     }
 }
 
@@ -168,7 +171,10 @@ doc_events = {
 after_migrate = [
     "chile_custom.custom.address_custom_fields.create_address_custom_fields",
     "chile_custom.custom.project_custom_fields.create_project_custom_fields",
-    "chile_custom.custom.employee_custom_fields.create_employee_rut_field"
+    "chile_custom.custom.employee_custom_fields.create_employee_rut_field",
+    "chile_custom.custom.bank_custom_fields.create_codigo_sbif_field",
+    "chile_custom.custom.shareholder_custom_fields.create_shareholder_custom_fields",
+    "chile_custom.custom.warehouse_custom_fields.create_warehouse_project_field"
 ]
 
 # Scheduled Tasks
