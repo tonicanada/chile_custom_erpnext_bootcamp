@@ -174,7 +174,9 @@ after_migrate = [
     "chile_custom.custom.employee_custom_fields.create_employee_rut_field",
     "chile_custom.custom.bank_custom_fields.create_codigo_sbif_field",
     "chile_custom.custom.shareholder_custom_fields.create_shareholder_custom_fields",
-    "chile_custom.custom.warehouse_custom_fields.create_warehouse_project_field"
+    "chile_custom.custom.warehouse_custom_fields.create_warehouse_project_field",
+    "chile_custom.custom.location_custom_fields.create_location_custom_project_field",
+    "chile_custom.custom.expenseclaimdetail_custom_fields.create_campos_comprobante_tributario"
 ]
 
 # Scheduled Tasks

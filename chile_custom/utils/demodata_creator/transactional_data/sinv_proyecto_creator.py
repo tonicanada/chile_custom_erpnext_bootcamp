@@ -239,9 +239,9 @@ def _crear_sinv(
 
 
 
-facturas = crear_facturas_venta_proyecto(
-    project_name="CHC",                # ID del proyecto (Project.name)
-    presupuesto_total=1_000_000_000,   # Presupuesto total del proyecto (1000 millones)
-    porcentaje_anticipo=0.20,          # 20% de anticipo
-    currency="CLP"                     # Moneda
-)
+# facturas = crear_facturas_venta_proyecto(
+#     project_name="CHC",                # ID del proyecto (Project.name)
+#     presupuesto_total=1_000_000_000,   # Presupuesto total del proyecto (1000 millones)
+#     porcentaje_anticipo=0.20,          # 20% de anticipo
+#     currency="CLP"                     # Moneda
+# )
