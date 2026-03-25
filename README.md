@@ -1,6 +1,6 @@
 # Chile Custom
 
-Personalización local para Chile sobre Frappe / ERPNext. Incluye validaciones de RUT, campos personalizados por DocType, helpers de región/comuna y endpoints API.
+Personalización local para Chile sobre Frappe / ERPNext. Usada como app de apoyo en el Bootcamp Curso 2025. Incluye validaciones de RUT, campos personalizados por DocType, helpers de región/comuna y endpoints API.
 
 **Stack:** Frappe / ERPNext (bench)
 
